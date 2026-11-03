@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TypeScript shooping list</title>
+    <script type="module" src="./shop1.ts"></script>
+    <link rel="stylesheet" href="shop1.css"></link>
+</head>
+
+<body>
+    <h1>Shop three items</h1>
+     <table>
+        <thead>
+            <tr>
+                <th scope = "row"> Shoppin cart</th>
+            </tr>
+            <tr>
+                <th>Item</th>
+                <th name = "UnitPrice">Price</th>
+                <th name = "Quantity">Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>0.33</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Grapes</td>
+                <td>$3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Oranges</td>
+                <td>0.44</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><button id = "Calculate-total">Sum total</button></td>
+                <td>total</td>
+                <td id="Payment">--</td>
+                </tr>
+                <tr>
+                <td><button id = "Calculate-discount">Total discounted</button></td>
+                <td>total with %25 off</td>
+                <td id="discounted">--</td>
+                </tr>
+            </tfoot>
+
+
+
+     </table>
+
+
+
+</body>
+</html>
